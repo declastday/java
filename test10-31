@@ -79,7 +79,10 @@ public class TestM extends JFrame implements ActionListener {
 	            display.setText(String.valueOf(result));
 	            operator = ' ';
 	            break;
-	        case "+": case "−": case "×": case "÷":
+	        case "+": 
+		case "−": 
+		case "×": 
+		case "÷":
 	            firstNum = Double.parseDouble(display.getText());
 	            operator = command.charAt(0);
 	            display.setText("");
